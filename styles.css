@@ -1,0 +1,30 @@
+body{
+    background-color: Green;
+    margin:0 auto;
+    max-width: 1200px;
+    text-align: center
+}
+
+h1{
+    color: orange;
+    text-align: center;
+}
+
+.friend{
+    background-color: lightgreen;
+
+}
+
+.friend h3{
+    text-transform: uppercase;
+}
+div{
+    margin:2% auto;  
+    width:63%;
+    padding: .1% 1%;
+    text-align:center ;
+    }
+    
+ button{
+   margin-bottom:1%;
+}
