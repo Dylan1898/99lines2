@@ -4,7 +4,7 @@
  var friends = ['Brock','Charlie','Cody','Ronnie','Matthew'] ;
 
  
-var button = document.querySelector('button');
+
 
 // document.addEventListener("DOMContentLoaded", function() {
 //     var element = document.createElement('div');
@@ -12,6 +12,7 @@ var button = document.querySelector('button');
 //     document.body.appendChild(element);
 // });
 document.addEventListener("DOMContentLoaded", function() {
+    var button = document.querySelector('button');
  button.addEventListener("click", function(){  
      
     
@@ -39,9 +40,9 @@ for(x = 0; x<friends.length; x++){
         z.innerText = '2 lines of code in the file, 2 lines of code; ' + friends[x] +' strikes one out, clears it all out, 1 line of code in the file,'
         element.appendChild(z);
         document.body.appendChild(element);
-        var z = document.createElement('p');
-        z.innerText = '1 line of code in the file, 1 line of code; ' + friends[x] +' strikes one out, clears it all out, no more lines  of code in the file.'
-        element.appendChild(z);
+        var u = document.createElement('p');
+        u.innerText = '1 line of code in the file, 1 line of code; ' + friends[x] +' strikes one out, clears it all out, no more lines  of code in the file.'
+        element.appendChild(undefined);
         document.body.appendChild(element);
 }   
  })
