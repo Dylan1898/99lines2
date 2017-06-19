@@ -17,6 +17,7 @@ h1{
 
 .friend h3{
     text-transform: uppercase;
+    text-decoration: underline
 }
 div{
     margin:2% auto;  
@@ -25,6 +26,4 @@ div{
     text-align:center ;
     }
     
- button{
-   margin-bottom:1%;
-}
+ 
